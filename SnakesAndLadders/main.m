@@ -14,23 +14,19 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool
     {
-        InputController *inputController = [[InputController alloc] init];
         PlayerManager *playerManager = [[PlayerManager alloc] init];
-        
+        BOOL isGameOver = NO;
+
         [playerManager createPlayers];
         
-//        while(player1.isGameOver == NO)
-//        {
-//            NSString *command =[inputController inputForPrompt:@"press (r) to roll the dice."];
-//            
-//            if([command isEqualToString:@"r"])
-//            {
-//                [player1 rollDice];
-//            }
-//            else{
-//                NSLog(@"Not a valid command. Try again.");
-//            }
-//        }
+        while(isGameOver == NO)
+        {
+            [playerManager play];
+            if(playerManager.isGameOver == YES)
+            {
+                isGameOver = YES;
+            }
+        }
     }
     return 0;
 }

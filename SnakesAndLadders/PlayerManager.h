@@ -12,7 +12,11 @@
 
 @property (nonatomic) NSMutableArray *players;
 @property (nonatomic) BOOL isPlayersComplete;
+@property (nonatomic) NSInteger currentIndex;
+@property (nonatomic) BOOL isGameOver;
 
 -(void)createPlayers;
+
+- (void)play;
 
 @end

@@ -19,10 +19,8 @@
     fgets(varWord, 255, stdin);
     NSString *userInput = [NSString stringWithCString:varWord encoding:NSUTF8StringEncoding];
     userInput = [userInput stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    userInput = [userInput lowercaseString];
+    userInput = [userInput uppercaseString];
     return userInput;
 }
-
-
 
 @end

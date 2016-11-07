@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B008E1AC1DD0E4130046C081 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 		B084C5391DD0C51E006B2D49 /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
 		B084C53A1DD0C51E006B2D49 /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		B0BAECA61DD0012D00F246F6 /* SnakesAndLadders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakesAndLadders; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +74,7 @@
 				B084C5391DD0C51E006B2D49 /* PlayerManager.h */,
 				B084C53A1DD0C51E006B2D49 /* PlayerManager.m */,
 				B0BAECA91DD0012D00F246F6 /* main.m */,
+				B008E1AC1DD0E4130046C081 /* Notes.txt */,
 			);
 			path = SnakesAndLadders;
 			sourceTree = "<group>";

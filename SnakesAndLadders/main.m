@@ -8,27 +8,29 @@
 
 #import <Foundation/Foundation.h>
 #import "InputController.h"
-#import "Player.h"
+#import "PlayerManager.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool
     {
         InputController *inputController = [[InputController alloc] init];
-        Player *player1 = [[Player alloc] init];
+        PlayerManager *playerManager = [[PlayerManager alloc] init];
         
-        while(player1.isGameOver == NO)
-        {
-            NSString *command =[inputController inputForPrompt:@"press (r) to roll the dice."];
-            
-            if([command isEqualToString:@"r"])
-            {
-                [player1 rollDice];
-            }
-            else{
-                NSLog(@"Not a valid command. Try again.");
-            }
-        }
+        [playerManager createPlayers];
+        
+//        while(player1.isGameOver == NO)
+//        {
+//            NSString *command =[inputController inputForPrompt:@"press (r) to roll the dice."];
+//            
+//            if([command isEqualToString:@"r"])
+//            {
+//                [player1 rollDice];
+//            }
+//            else{
+//                NSLog(@"Not a valid command. Try again.");
+//            }
+//        }
     }
     return 0;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B084C53B1DD0C51E006B2D49 /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B084C53A1DD0C51E006B2D49 /* PlayerManager.m */; };
 		B0BAECAA1DD0012D00F246F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAECA91DD0012D00F246F6 /* main.m */; };
 		B0BAECB21DD01ECB00F246F6 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAECB11DD01ECB00F246F6 /* InputController.m */; };
 		B0BAECB81DD022F500F246F6 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAECB71DD022F500F246F6 /* Player.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B084C5391DD0C51E006B2D49 /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		B084C53A1DD0C51E006B2D49 /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		B0BAECA61DD0012D00F246F6 /* SnakesAndLadders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakesAndLadders; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BAECA91DD0012D00F246F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0BAECB01DD01ECB00F246F6 /* InputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputController.h; sourceTree = "<group>"; };
@@ -63,11 +66,13 @@
 		B0BAECA81DD0012D00F246F6 /* SnakesAndLadders */ = {
 			isa = PBXGroup;
 			children = (
-				B0BAECA91DD0012D00F246F6 /* main.m */,
 				B0BAECB01DD01ECB00F246F6 /* InputController.h */,
 				B0BAECB11DD01ECB00F246F6 /* InputController.m */,
 				B0BAECB61DD022F500F246F6 /* Player.h */,
 				B0BAECB71DD022F500F246F6 /* Player.m */,
+				B084C5391DD0C51E006B2D49 /* PlayerManager.h */,
+				B084C53A1DD0C51E006B2D49 /* PlayerManager.m */,
+				B0BAECA91DD0012D00F246F6 /* main.m */,
 			);
 			path = SnakesAndLadders;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				B0BAECB81DD022F500F246F6 /* Player.m in Sources */,
 				B0BAECB21DD01ECB00F246F6 /* InputController.m in Sources */,
+				B084C53B1DD0C51E006B2D49 /* PlayerManager.m in Sources */,
 				B0BAECAA1DD0012D00F246F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +264,7 @@
 				B0BAECAF1DD0012D00F246F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

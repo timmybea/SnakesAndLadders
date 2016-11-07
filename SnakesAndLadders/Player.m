@@ -10,7 +10,7 @@
 
 @implementation Player
 
-- (instancetype)init
+- (instancetype)initWithName:(NSString *)name
 {
     self = [super init];
     if(self)
